@@ -76,9 +76,9 @@ var person = {
     console.log("false")
   }
 
-  number = 455
+  myNum = 457
 
-  if (number % 2 == 0) {
+  if (myNum % 2 === 0) {
       console.log("The number is even.")
   } else {
     console.log("The number is odd.")
