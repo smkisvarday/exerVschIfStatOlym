@@ -37,4 +37,49 @@ var person = {
     console.log( person.name + " is NOT allowed to go to the movie")
   } 
 
- 
+  if (1==="1") {
+      console.log("strict")
+  } else if (1=="1") {
+      console.log("loose")
+  } else {
+      console.log("not equal at all")
+  }
+
+
+  if (1 <= 2 && 2 === 4) {
+      console.log("yes")
+  } else {
+      console.log("no")
+  }
+
+  if (typeof "dog" === 'string') {
+      console.log("this is a string")
+  } else {
+    console.log("this is NOT a string")
+  }
+
+  if (typeof "true" === 'boolean') {
+    console.log("this is a boolean")
+  } else {
+    console.log("this is NOT a boolean")
+  }
+
+  if (typeof animal !== "undefined") {
+    console.log("this variable has been defined")
+  } else {
+    console.log("this variable has NOT been defined")
+  }
+
+  if ("s" > 12) {
+      console.log("true")
+  } else {
+    console.log("false")
+  }
+
+  number = 455
+
+  if (number % 2 == 0) {
+      console.log("The number is even.")
+  } else {
+    console.log("The number is odd.")
+  }
